@@ -176,10 +176,10 @@ inline void Ctrl::setCrop(const utils::Dim& d)
     mMdp.setCrop(d);
 }
 
-inline void Ctrl::setColor(const uint32_t color)
+/*inline void Ctrl::setColor(const uint32_t color)
 {
     mMdp.setColor(color);
-}
+}*/
 
 inline bool Ctrl::setVisualParams(const MetaData_t &metadata)
 {

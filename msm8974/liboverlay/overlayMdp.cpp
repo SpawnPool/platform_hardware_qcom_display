@@ -101,9 +101,9 @@ void MdpCtrl::setCrop(const utils::Dim& d) {
     setSrcRectDim(d);
 }
 
-void MdpCtrl::setColor(const uint32_t color) {
+/*void MdpCtrl::setColor(const uint32_t color) {
     mOVInfo.bg_color = color;
-}
+} */
 
 void MdpCtrl::setPosition(const overlay::utils::Dim& d) {
     setDstRectDim(d);

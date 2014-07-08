@@ -874,7 +874,7 @@ int configColorLayer(hwc_context_t *ctx, hwc_layer_1_t *layer,
     // Configure MDP pipe for Color layer
     Dim pos(dst.left, dst.top, dst_w, dst_h);
     ctx->mOverlay->setSource(parg, dest);
-    ctx->mOverlay->setColor(color, dest);
+//    ctx->mOverlay->setColor(color, dest);
     ctx->mOverlay->setTransform(0, dest);
     ctx->mOverlay->setCrop(pos, dest);
     ctx->mOverlay->setPosition(pos, dest);

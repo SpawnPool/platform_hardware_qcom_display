@@ -93,9 +93,9 @@ void GenericPipe::setCrop(const overlay::utils::Dim& d) {
     mCtrlData.ctrl.setCrop(d);
 }
 
-void GenericPipe::setColor(const uint32_t color) {
+/*void GenericPipe::setColor(const uint32_t color) {
     mCtrlData.ctrl.setColor(color);
-}
+}*/
 
 void GenericPipe::setTransform(const utils::eTransform& orient) {
     mCtrlData.ctrl.setTransform(orient);
